@@ -7,6 +7,7 @@ public class User {
     private String user_last_name;
     private String gender;
     private String user_email;
+    // make User class based on the database table working on.
 
 
     public String getUser_id() {
