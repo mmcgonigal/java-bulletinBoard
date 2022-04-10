@@ -34,14 +34,15 @@
     <div class="col-lg-12">
         <div class="jumbotron" style="padding-top: 50px;margin-top: 50px;">
             <form method="post" action="loginAction.jsp">
+<%--                loginAction page will show user the result of attempt of login. --%>
                 <h3 style="text-align: center;">Log in</h3>
                 <br>
                 <div class="form-row">
-                    <input type="text" class="form-control" id="userID" name="userID" placeholder="id" maxlength="20">
+                    <input type="text" class="form-control" id="userID" name="user_id" placeholder="id" maxlength="20">
                 </div>
                 <br>
                 <div class="form-row">
-                    <input type="password" class="form-control" id="userPassword" name="userPassword"  placeholder="password" maxlength="20">
+                    <input type="password" class="form-control" id="userPassword" name="user_password"  placeholder="password" maxlength="20">
                 </div>
                 <br>
                 <input type="submit" class="btn btn-info form-control" value="login">
